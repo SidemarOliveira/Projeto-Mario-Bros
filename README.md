@@ -1,1 +1,1 @@
-<h1>Projeto Mario Bros</h1>
+<h1 align= center>Projeto Mario Bros</h1>
