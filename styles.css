@@ -6,7 +6,6 @@
 
 .image-logo {
   height: 200px;
-  margin-left: 100px;
 }
 
 button {
@@ -19,12 +18,16 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 30px;
-  margin-left: 154px;
   cursor: pointer;
+
+}
+
+button:hover {
+  opacity: 0.5;
 }
 
 .mario-luigi {
-  height: 500px;
+  height: 400px;
 }
 
 body {
@@ -34,23 +37,23 @@ body {
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 100px;
   height: 100vh;
 }
 
-.contanier-left {
-  width: 50%;
+.container-left {
+  width: 40%;
 }
 
-.video {
+.caixa-video {
   position: fixed;
   z-index: -1;
   top: 0;
 }
 video {
-  min-width: 100%;
   min-height: 100%;
+  min-width: 100%;
   position: fixed;
   top: 0;
 }
@@ -71,6 +74,8 @@ video {
 p {
   width: 588px;
   color: #ffffff;
+  text-align: left;
+  font-size: 20px;
 }
 
 .link-do-zap {
@@ -163,7 +168,7 @@ textarea {
     padding: 10px;
   }
 
-  .contanier-left {
+  .container-left {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -176,8 +181,10 @@ textarea {
   }
 
   .header {
-    margin: 10px 0px 0px 35px;
-    
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .header img {
@@ -186,17 +193,11 @@ textarea {
 
   .header a {
     font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
-  .image-logo {
-    margin: 50px;
+  button {
+    margin-left: 75px;
   }
 
-button {
- margin: auto;
-}  
 
 }
